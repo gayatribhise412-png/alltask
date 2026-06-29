@@ -12,12 +12,12 @@ def get_grade(marks):
     else:
         return "Invalid marks"
 
-# Input
+
 marks = float(input("Enter student marks out of 100: "))
 
 # Function call
 grade = get_grade(marks)
 
-# Output
+
 print(f"Marks: {marks}")
 print(f"Grade: {grade}")
